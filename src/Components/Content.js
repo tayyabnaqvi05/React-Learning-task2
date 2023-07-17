@@ -19,31 +19,28 @@ const Content = () => {
     </div>
     <div className="col-12 text-center text-5xl font-bold capitalize text-800 mt-4">How does it work?</div>
     <div className="col-12 text-center text-lg font-normal text-700">Here is a quick overview of what steps are involved in joining the Data Hub.</div>
-    
-
+  
     </div>
     <div class="grid">
-    <div class="col-1">
-    <img src={icon} alt="Hero Content picturee" className='mt-3 ml-7 '/>
-    <img src={Rectangle} alt="Hero Content picturee" className='mt-3 ml-8'/>
+    <div class="col-2 ">
     </div>
     <div class="col-8">
         <div class="grid">
-            <div class="col-6 mainh">
-            <h3 className='hh ml-2'>Create an account</h3>
-                <p className='hideme ml-2 mb-2'>You will provide your email address or mobile phone number and create a password.</p>
+            <div class="col-08 fcontainer">
+            <img src={icon} alt="icon Content picturee" className='mr-2'/>
+            <div className=''><h3 className='hh mt-6'>Create an account</h3>
+    <p className='pp'>You will provide your email address or mobile phone number and create a password.</p>
+    </div>
             </div>
-                
-            </div>
+           
             <div class="col-6">
-            sss
-            <div class="col-12">
-                12
+            <div><img src={Rectangle} alt="icon Content picturee" className='h-4rem'/></div>
             </div>
         </div>
     </div>
-    
-</div>
+    <div class="col-4 ">
+    </div>
+</div> 
     </>
   );
 };
