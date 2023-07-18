@@ -1,11 +1,11 @@
 import React from 'react';
-import hero from './hero.png'
-import icon from './Create account icon.png'
-import Rectangle from './Rectangle 314.png'
+import hero from './Images/hero.png'
+import icon from './Images/Create account icon.png'
+import Review from './Images/Review.png'
+import frame from './Images/Frame 1539.png'
 import { Button } from 'primereact/button';
 import './style.css';
-const Content = () => {
-   
+const Content = () => {   
   return (
     <>
     <div className="grid bg-yellow-50">
@@ -20,28 +20,40 @@ const Content = () => {
     <div className="col-12 text-center text-5xl font-bold capitalize text-800 mt-4">How does it work?</div>
     <div className="col-12 text-center text-lg font-normal text-700">Here is a quick overview of what steps are involved in joining the Data Hub.</div>
   
-    </div>
-    <div class="grid">
-    <div class="col-2 ">
-    </div>
-    <div class="col-8">
-        <div class="grid">
-            <div class="col-08 fcontainer">
-            <img src={icon} alt="icon Content picturee" className='mr-2'/>
-            <div className=''><h3 className='hh mt-6'>Create an account</h3>
-    <p className='pp'>You will provide your email address or mobile phone number and create a password.</p>
-    </div>
+    <div className="col-6 mt-">
+          <div className="col-06 fcontainer ml-7 ">
+            <img src={icon} alt="icon Content picturee" className='mr-2 mt-3'/>
+            <div className='mb-2'><h3 className=''>Create an account</h3>
+            <p>You will provide your email address or mobile phone number and create a password.</p>
             </div>
-           
-            <div class="col-6">
-            <div><img src={Rectangle} alt="icon Content picturee" className='h-4rem'/></div>
+          </div>
+          <div className="col-6 fcontainer ml-6 mt-3">
+            <img src={Review} alt="icon Content picturee" className='mr-2 mt-3'/>
+            <div className='mb-2'><h3 className=''>Review the consent form</h3>
+            <p className='pp'>You can review the purpose of the ASH RC Data Hub and the reasons why your participation is important. The consent process takes approximately fifteen minutes, but you can take as much time as you need. </p>
             </div>
+          </div>
+          <div className="col-6 fcontainer ml-6 mt-7">
+            <img src={Review} alt="icon Content picturee" className='mr-2 mt-3'/>
+            <div className='mb-2'><h3 className=''>Fill in the consent form</h3>
+            <p className='pp'>If you agree to join, you'll be asked to provide your name, date of birth, and electronic signature. You may download your signed consent form at any time. </p>
+            </div>
+          </div>
+          <div className="col-6 fcontainer ml-6 mt-4">
+            <img src={Review} alt="icon Content picturee" className='mr-2 mt-3'/>
+            <div className='mb-2'><h3 className=''>Access your profile</h3>
+            <p className='pp'>Your profile will provide you access to the Data Hub's consent form(s) and educational materials. </p>
+            </div>
+          </div>
         </div>
+    <div className="col-4 ">
+    <img src={frame} alt="frame Content picturee" className='imagedem mr-6 mt-8'/>
     </div>
-    <div class="col-4 ">
-    </div>
-</div> 
-    </>
+</div>
+<div className='flex justify-content-center align-items-center mt-6'>
+  <Button label="Join the Data Hub" style={{ backgroundColor: 'var(--primary-main, #B62B30)'}}  /> 
+</div>
+</>
   );
 };
 export default Content;

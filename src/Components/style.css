@@ -1,8 +1,9 @@
 .fcontainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 77px;
+    align-items: flex-start;
+    gap: 15px;
+    justify-content:left;
+      height: 77px;
     width: 463px;
   }
   
@@ -22,3 +23,12 @@ font-style: normal;
 font-weight: 700;
 line-height: 26px; /* 144.444% */
   }
+.imagedem{
+  width: 612.298px;
+  height: 305.326px;
+  flex-shrink: 0;
+}
+.pp{
+  width: 432px;
+ 
+}

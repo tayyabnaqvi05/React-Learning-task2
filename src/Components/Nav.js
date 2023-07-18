@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menubar } from 'primereact/menubar';
-import logo from './Group.png';
+import logo from './Images/Group.png';
 import './style.css';
 const Navigation = () => {
   const [activeItem, setActiveItem] = useState('');
