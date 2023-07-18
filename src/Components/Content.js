@@ -7,8 +7,8 @@ import { Button } from 'primereact/button';
 import './style.css';
 const Content = () => {   
   return (
-    <>
-    <div className="grid bg-yellow-50">
+    <div className="bg-yellow-50"> 
+    <div className="grid ">
     <div className="col-6 ">
     <img src={hero} alt="Hero Content picturee" className='h-30rem w-29rem ml-7 mt-7'/>
     </div>
@@ -50,10 +50,13 @@ const Content = () => {
     <img src={frame} alt="frame Content picturee" className='imagedem mr-6 mt-8'/>
     </div>
 </div>
-<div className='flex justify-content-center align-items-center mt-6'>
+<div className='flex justify-content-center align-items-center mt-6 bg-yellow-50'>
   <Button label="Join the Data Hub" style={{ backgroundColor: 'var(--primary-main, #B62B30)'}}  /> 
 </div>
-</>
+<div className="">
+  
+</div>
+</div>
   );
 };
 export default Content;

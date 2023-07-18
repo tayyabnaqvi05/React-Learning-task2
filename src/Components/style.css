@@ -30,5 +30,10 @@ line-height: 26px; /* 144.444% */
 }
 .pp{
   width: 432px;
- 
+}
+.footer{
+  width: 1442px;
+height: 43px;
+flex-shrink: 0;
+background: #FFF;
 }
